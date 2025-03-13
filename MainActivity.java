@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                         oInten = new Intent(MainActivity.this, Ejercicio3.class);
                         break;
                     case "Ejercicio 4":
-                        oInten = new Intent(MainActivity.this, Ejercicio3.class);
+                        oInten = new Intent(MainActivity.this, Ejercicio4.class);
                         break;
                     default:
                         return;

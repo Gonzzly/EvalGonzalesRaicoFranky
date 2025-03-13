@@ -19,7 +19,7 @@ public class Ejercicio3 extends AppCompatActivity {
 
     EditText etxPalabras, etxNIntentos;
     Button btnJugar;
-    public static ArrayList<String> listPalabras;
+    public static ArrayList<String> listPalabras = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,7 +37,7 @@ public class Ejercicio3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 juego();
-                //listPalabras = new ArrayList<>(Arrays.asList(etxPalabras.getText().toString().split(",")));
+                listPalabras = new ArrayList<>(Arrays.asList(etxPalabras.getText().toString().split(",")));
 
             }
         });
